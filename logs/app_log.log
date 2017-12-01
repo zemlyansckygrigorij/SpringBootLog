@@ -76,3 +76,72 @@
 [INFO ] 2017-11-30 18:22:44.040 [http-nio-8090-exec-10] SimpleController - Info message
 [WARN ] 2017-11-30 18:22:44.725 [http-nio-8090-exec-10] SimpleController - Warn message
 [ERROR] 2017-11-30 18:22:44.727 [http-nio-8090-exec-10] SimpleController - Error message
+[INFO ] 2017-12-01 09:44:01.959 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 1516 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 09:44:02.022 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 09:44:10.548 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 9.994 seconds (JVM running for 31.051)
+[INFO ] 2017-12-01 09:45:36.205 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 09:45:36.222 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 09:45:36.222 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 09:59:57.659 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4384 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 09:59:57.677 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 10:00:02.239 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 5.684 seconds (JVM running for 11.584)
+[INFO ] 2017-12-01 10:08:07.809 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 3164 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 10:08:07.853 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 10:08:12.651 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 5.564 seconds (JVM running for 8.398)
+[INFO ] 2017-12-01 10:10:44.351 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 5556 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 10:10:44.369 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 10:10:48.835 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 5.31 seconds (JVM running for 7.527)
+[INFO ] 2017-12-01 10:15:33.137 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 5124 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 10:15:33.145 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 10:15:38.275 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 6.043 seconds (JVM running for 8.207)
+[INFO ] 2017-12-01 10:33:35.699 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 3180 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 10:33:35.705 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 10:33:39.938 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 4.899 seconds (JVM running for 7.487)
+[INFO ] 2017-12-01 11:05:51.289 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4436 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 11:05:51.310 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 11:06:01.758 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 12.263 seconds (JVM running for 27.872)
+[INFO ] 2017-12-01 11:39:14.732 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 5972 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 11:39:14.804 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 11:39:22.293 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 8.993 seconds (JVM running for 18.18)
+[INFO ] 2017-12-01 11:42:59.424 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4356 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 11:42:59.433 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 11:43:06.505 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 7.729 seconds (JVM running for 13.216)
+[INFO ] 2017-12-01 11:44:51.101 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4420 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 11:44:51.119 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 11:44:54.954 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 4.287 seconds (JVM running for 6.279)
+[INFO ] 2017-12-01 11:55:18.348 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 5452 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 11:55:18.353 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 11:55:21.437 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 3.496 seconds (JVM running for 5.228)
+[INFO ] 2017-12-01 11:59:14.571 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 6076 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 11:59:14.576 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 11:59:18.336 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 4.266 seconds (JVM running for 6.619)
+[INFO ] 2017-12-01 12:01:34.071 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 5872 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 12:01:34.079 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 12:01:38.867 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 5.387 seconds (JVM running for 8.389)
+[INFO ] 2017-12-01 12:04:42.362 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 5620 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 12:04:42.577 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 12:04:45.697 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 3.883 seconds (JVM running for 6.344)
+[INFO ] 2017-12-01 12:14:16.001 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4832 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 12:14:16.009 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 12:14:22.104 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 6.792 seconds (JVM running for 12.184)
+[INFO ] 2017-12-01 12:16:05.120 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4532 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 12:16:05.160 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 12:16:08.039 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 3.283 seconds (JVM running for 5.246)
+[INFO ] 2017-12-01 12:20:29.986 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4676 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 12:20:29.991 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 12:20:33.126 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 3.509 seconds (JVM running for 5.249)
+[INFO ] 2017-12-01 12:22:06.088 [http-nio-8090-exec-4] SimpleController - Info message
+[WARN ] 2017-12-01 12:22:06.096 [http-nio-8090-exec-4] SimpleController - Warn message
+[ERROR] 2017-12-01 12:22:06.096 [http-nio-8090-exec-4] SimpleController - Error message
+[INFO ] 2017-12-01 12:22:15.052 [http-nio-8090-exec-6] SimpleController - Info message
+[WARN ] 2017-12-01 12:22:15.052 [http-nio-8090-exec-6] SimpleController - Warn message
+[ERROR] 2017-12-01 12:22:15.052 [http-nio-8090-exec-6] SimpleController - Error message
+[INFO ] 2017-12-01 12:22:18.903 [http-nio-8090-exec-8] SimpleController - Info message
+[WARN ] 2017-12-01 12:22:18.903 [http-nio-8090-exec-8] SimpleController - Warn message
+[ERROR] 2017-12-01 12:22:18.903 [http-nio-8090-exec-8] SimpleController - Error message
+[INFO ] 2017-12-01 12:58:40.190 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 5852 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 12:58:40.225 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 12:59:21.294 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 44.363 seconds (JVM running for 54.343)
+[INFO ] 2017-12-01 13:17:36.302 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 13:17:36.305 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 13:17:36.305 [http-nio-8090-exec-1] SimpleController - Error message

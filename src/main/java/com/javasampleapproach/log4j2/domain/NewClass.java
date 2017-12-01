@@ -1,4 +1,4 @@
-package com.javasampleapproach.log4j2.controller;
+package com.javasampleapproach.log4j2.domain;
 
 import java.util.ArrayList;
 

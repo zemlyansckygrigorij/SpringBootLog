@@ -193,3 +193,287 @@
 [INFO ] 2017-11-30 16:38:22.226 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
 [WARN ] 2017-11-30 16:38:29.142 [http-nio-8090-exec-3] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "3uuuh"
 [WARN ] 2017-11-30 16:40:39.776 [http-nio-8090-exec-4] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "3uuuh"
+[INFO ] 2017-12-01 09:44:08.787 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 6560 ms
+[INFO ] 2017-12-01 09:44:09.658 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 09:44:02 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 09:44:09.796 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 09:44:09.797 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 09:44:09.797 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 09:44:09.801 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-01 09:44:09.802 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-01 09:44:09.845 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 09:44:09.845 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 09:44:09.932 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 09:45:35.951 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 09:45:35.997 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 45 ms
+[WARN ] 2017-12-01 09:45:43.042 [http-nio-8090-exec-3] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "aq"
+[INFO ] 2017-12-01 10:00:00.899 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 3008 ms
+[INFO ] 2017-12-01 10:00:01.716 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 09:59:57 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 10:00:01.822 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 10:00:01.823 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 10:00:01.823 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 10:00:01.827 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-01 10:00:01.827 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-01 10:00:01.868 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:00:01.868 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:00:01.913 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:00:02.589 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 10:00:02.629 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 40 ms
+[WARN ] 2017-12-01 10:00:02.712 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "aq"
+[INFO ] 2017-12-01 10:08:11.055 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 3052 ms
+[INFO ] 2017-12-01 10:08:11.998 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 10:08:08 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 10:08:12.172 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 10:08:12.175 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 10:08:12.176 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 10:08:12.177 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 10:08:12.253 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:08:12.254 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:08:12.329 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:09:59.890 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 10:09:59.910 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+[WARN ] 2017-12-01 10:09:59.963 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "aq"
+[INFO ] 2017-12-01 10:10:47.509 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2761 ms
+[INFO ] 2017-12-01 10:10:48.260 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 10:10:44 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 10:10:48.404 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 10:10:48.405 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 10:10:48.405 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 10:10:48.405 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 10:10:48.455 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:10:48.456 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:10:48.525 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:14:13.623 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 10:14:13.654 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+[WARN ] 2017-12-01 10:14:13.704 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2334ryt"
+[INFO ] 2017-12-01 10:15:36.885 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 3616 ms
+[INFO ] 2017-12-01 10:15:37.607 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 10:15:33 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 10:15:37.704 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 10:15:37.706 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 10:15:37.706 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 10:15:37.706 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 10:15:37.757 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:15:37.757 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:15:37.831 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:15:52.535 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 10:15:52.554 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+[WARN ] 2017-12-01 10:15:52.606 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2334ryt"
+[INFO ] 2017-12-01 10:33:38.535 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2588 ms
+[INFO ] 2017-12-01 10:33:39.327 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 10:33:35 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 10:33:39.447 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 10:33:39.448 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 10:33:39.449 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 10:33:39.457 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 10:33:39.513 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:33:39.513 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:33:39.617 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 10:33:57.597 [http-nio-8090-exec-2] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 10:33:57.772 [http-nio-8090-exec-2] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 175 ms
+[WARN ] 2017-12-01 10:34:05.127 [http-nio-8090-exec-4] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2334qerqw"
+[INFO ] 2017-12-01 11:05:59.725 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 8146 ms
+[INFO ] 2017-12-01 11:06:00.888 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 11:05:51 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 11:06:00.922 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:06:00.923 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:06:01.111 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 11:06:01.112 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 11:06:01.113 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 11:06:01.113 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 11:06:01.167 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:06:01.167 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:06:01.240 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:06:01.303 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:06:52.864 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 11:06:52.944 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 80 ms
+[INFO ] 2017-12-01 11:39:20.236 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 4924 ms
+[INFO ] 2017-12-01 11:39:21.288 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 11:39:15 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 11:39:21.297 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:39:21.298 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:39:21.427 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 11:39:21.428 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 11:39:21.429 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 11:39:21.429 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 11:39:21.504 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:39:21.504 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:39:21.596 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:39:21.688 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:39:35.196 [http-nio-8090-exec-2] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 11:39:35.338 [http-nio-8090-exec-2] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 142 ms
+[INFO ] 2017-12-01 11:43:04.113 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 4544 ms
+[INFO ] 2017-12-01 11:43:05.571 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 11:42:59 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 11:43:05.589 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:43:05.589 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:43:05.702 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 11:43:05.703 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 11:43:05.703 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 11:43:05.756 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:43:05.756 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:43:05.825 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:43:05.869 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:43:28.311 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 11:43:28.338 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+[WARN ] 2017-12-01 11:43:28.520 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "error"
+[WARN ] 2017-12-01 11:43:34.058 [http-nio-8090-exec-2] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "error"
+[WARN ] 2017-12-01 11:43:44.609 [http-nio-8090-exec-5] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2uuyu"
+[WARN ] 2017-12-01 11:43:44.611 [http-nio-8090-exec-5] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "error"
+[INFO ] 2017-12-01 11:44:53.569 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2343 ms
+[INFO ] 2017-12-01 11:44:54.415 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 11:44:51 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 11:44:54.425 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:44:54.425 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:44:54.538 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 11:44:54.539 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 11:44:54.539 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 11:44:54.581 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:44:54.581 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:44:54.614 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:44:54.672 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:45:02.494 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 11:45:02.517 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+[WARN ] 2017-12-01 11:45:02.566 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2uuyu"
+[WARN ] 2017-12-01 11:45:02.575 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "error"
+[WARN ] 2017-12-01 11:45:10.110 [http-nio-8090-exec-3] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2nk"
+[WARN ] 2017-12-01 11:45:10.113 [http-nio-8090-exec-3] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "error"
+[INFO ] 2017-12-01 11:55:20.380 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 1960 ms
+[INFO ] 2017-12-01 11:55:20.935 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 11:55:18 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 11:55:20.949 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:55:20.949 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:55:21.043 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 11:55:21.044 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 11:55:21.044 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 11:55:21.044 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 11:55:21.100 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:55:21.100 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:55:21.124 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:55:21.156 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:57:07.715 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 11:57:07.737 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+[WARN ] 2017-12-01 11:57:07.782 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2nk"
+[INFO ] 2017-12-01 11:59:17.220 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2530 ms
+[INFO ] 2017-12-01 11:59:17.859 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 11:59:14 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 11:59:17.868 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:59:17.868 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:59:17.935 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 11:59:17.936 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 11:59:17.936 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 11:59:17.982 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:59:17.983 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:59:18.005 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 11:59:18.038 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 11:59:28.525 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 11:59:28.548 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+[WARN ] 2017-12-01 11:59:28.595 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2nk"
+[WARN ] 2017-12-01 11:59:28.603 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "error"
+[INFO ] 2017-12-01 12:01:37.090 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2903 ms
+[INFO ] 2017-12-01 12:01:38.127 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 12:01:34 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 12:01:38.142 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:01:38.142 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:01:38.217 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 12:01:38.218 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 12:01:38.219 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 12:01:38.270 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:01:38.270 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:01:38.296 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:01:38.330 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:01:53.709 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 12:01:53.739 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 29 ms
+[WARN ] 2017-12-01 12:01:53.824 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2nk"
+[WARN ] 2017-12-01 12:01:53.837 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "error"
+[WARN ] 2017-12-01 12:01:57.516 [http-nio-8090-exec-2] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2nk"
+[WARN ] 2017-12-01 12:01:57.517 [http-nio-8090-exec-2] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "error"
+[INFO ] 2017-12-01 12:04:44.515 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 1746 ms
+[INFO ] 2017-12-01 12:04:45.123 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 12:04:42 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 12:04:45.134 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:04:45.134 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:04:45.222 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 12:04:45.224 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 12:04:45.225 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 12:04:45.225 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 12:04:45.269 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:04:45.270 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:04:45.293 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:04:45.321 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:08:54.281 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 12:08:54.307 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+[WARN ] 2017-12-01 12:08:54.355 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2nk"
+[WARN ] 2017-12-01 12:10:16.615 [http-nio-8090-exec-5] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2i"
+[INFO ] 2017-12-01 12:14:20.206 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 4042 ms
+[INFO ] 2017-12-01 12:14:21.261 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 12:14:16 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 12:14:21.274 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:14:21.275 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:14:21.407 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 12:14:21.408 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 12:14:21.411 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 12:14:21.411 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 12:14:21.493 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:14:21.493 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:14:21.541 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:14:21.577 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:14:41.739 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 12:14:41.764 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+[WARN ] 2017-12-01 12:14:41.833 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "2i"
+[INFO ] 2017-12-01 12:16:07.062 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 1828 ms
+[INFO ] 2017-12-01 12:16:07.543 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 12:16:05 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 12:16:07.552 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:16:07.552 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:16:07.614 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 12:16:07.615 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 12:16:07.616 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 12:16:07.616 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 12:16:07.669 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:16:07.669 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:16:07.700 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:16:07.734 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:16:26.837 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 12:16:26.863 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+[WARN ] 2017-12-01 12:16:35.529 [http-nio-8090-exec-4] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "24ere"
+[INFO ] 2017-12-01 12:20:32.102 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 1983 ms
+[INFO ] 2017-12-01 12:20:32.690 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 12:20:30 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 12:20:32.699 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:20:32.699 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:20:32.764 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 12:20:32.765 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 12:20:32.765 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 12:20:32.766 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 12:20:32.810 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:20:32.810 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:20:32.833 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:20:32.863 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:21:22.504 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 12:21:22.531 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+[WARN ] 2017-12-01 12:21:22.570 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "24ere"
+[INFO ] 2017-12-01 12:59:14.285 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 32236 ms
+[INFO ] 2017-12-01 12:59:17.548 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@127514f: startup date [Fri Dec 01 12:58:42 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 12:59:17.568 [main] RequestMappingHandlerAdapter - Detected @ModelAttribute methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:59:17.568 [main] RequestMappingHandlerAdapter - Detected @InitBinder methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:59:18.116 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 12:59:18.118 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 12:59:18.118 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 12:59:18.118 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 12:59:18.295 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:59:18.296 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 12:59:18.673 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in globalControllerAdvice
+[INFO ] 2017-12-01 12:59:18.960 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 13:17:35.519 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 13:17:35.642 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 123 ms
+[WARN ] 2017-12-01 13:18:07.319 [http-nio-8090-exec-8] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1657wertwet"
+[INFO ] 2017-12-01 13:45:59.840 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 8937 ms
+[INFO ] 2017-12-01 13:46:02.418 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@186beff: startup date [Fri Dec 01 13:45:50 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 13:46:02.851 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 13:46:02.852 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 13:46:02.853 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 13:46:02.853 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 13:46:03.023 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 13:46:03.023 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 13:46:03.371 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 13:46:18.057 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 13:46:18.161 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 104 ms
+[WARN ] 2017-12-01 13:46:18.604 [http-nio-8090-exec-1] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "1657wertwet"
+[INFO ] 2017-12-01 14:36:23.772 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2668 ms
+[INFO ] 2017-12-01 14:36:25.026 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@186beff: startup date [Fri Dec 01 14:36:21 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 14:36:25.100 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-01 14:36:25.104 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 14:36:25.104 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 14:36:25.104 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 14:36:25.105 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 14:36:25.176 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 14:36:25.176 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 14:36:25.246 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 14:37:12.466 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 14:37:12.503 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+[WARN ] 2017-12-01 14:37:23.519 [http-nio-8090-exec-5] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "56ее"
