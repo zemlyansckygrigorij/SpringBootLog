@@ -32,7 +32,7 @@
             <AppenderRef ref="SpringBoot-Appender" />
             <AppenderRef ref="Console-Appender" />
         </Logger>
-        <Logger name="com.javasampleapproach.log4j2.controller" level="info"
+        <Logger name="com.javasampleapproach.log4j2" level="info"
                 additivity="false">
             <AppenderRef ref="App-Appender" />
             <AppenderRef ref="Console-Appender" />

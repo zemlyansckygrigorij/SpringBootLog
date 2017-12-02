@@ -145,3 +145,146 @@
 [INFO ] 2017-12-01 13:17:36.302 [http-nio-8090-exec-1] SimpleController - Info message
 [WARN ] 2017-12-01 13:17:36.305 [http-nio-8090-exec-1] SimpleController - Warn message
 [ERROR] 2017-12-01 13:17:36.305 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 16:45:41.716 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 16:45:41.768 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 16:45:41.769 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 17:06:29.137 [http-nio-8090-exec-8] SimpleController - Info message
+[WARN ] 2017-12-01 17:06:29.156 [http-nio-8090-exec-8] SimpleController - Warn message
+[ERROR] 2017-12-01 17:06:29.156 [http-nio-8090-exec-8] SimpleController - Error message
+[INFO ] 2017-12-01 17:20:42.554 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 17:20:42.555 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 17:20:42.555 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 18:43:18.523 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 18:43:18.543 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 18:43:18.543 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 18:45:11.641 [http-nio-8090-exec-5] SimpleController - Info message
+[WARN ] 2017-12-01 18:45:11.642 [http-nio-8090-exec-5] SimpleController - Warn message
+[ERROR] 2017-12-01 18:45:11.642 [http-nio-8090-exec-5] SimpleController - Error message
+[INFO ] 2017-12-01 18:52:37.313 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 18:52:37.314 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 18:52:37.314 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 18:57:15.888 [http-nio-8090-exec-5] SimpleController - Info message
+[WARN ] 2017-12-01 18:57:15.890 [http-nio-8090-exec-5] SimpleController - Warn message
+[ERROR] 2017-12-01 18:57:15.893 [http-nio-8090-exec-5] SimpleController - Error message
+[INFO ] 2017-12-01 19:09:10.615 [http-nio-8090-exec-4] SimpleController - Info message
+[WARN ] 2017-12-01 19:09:10.617 [http-nio-8090-exec-4] SimpleController - Warn message
+[ERROR] 2017-12-01 19:09:10.617 [http-nio-8090-exec-4] SimpleController - Error message
+[INFO ] 2017-12-01 19:12:47.827 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 19:12:47.828 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 19:12:47.828 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 19:14:25.759 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 19:14:25.760 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 19:14:25.760 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 19:17:40.305 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 19:17:40.306 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 19:17:40.306 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 19:24:24.652 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 19:24:24.653 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 19:24:24.653 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 20:39:36.287 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 3616 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 20:39:36.313 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 20:39:40.153 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 4.365 seconds (JVM running for 6.358)
+[INFO ] 2017-12-01 20:40:36.887 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 5840 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-01 20:40:36.893 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-01 20:40:41.103 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 4.662 seconds (JVM running for 6.446)
+[INFO ] 2017-12-01 20:40:53.616 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-01 20:40:53.617 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-01 20:40:53.618 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-01 20:41:15.052 [http-nio-8090-exec-4] SimpleController - Info message
+[WARN ] 2017-12-01 20:41:15.052 [http-nio-8090-exec-4] SimpleController - Warn message
+[ERROR] 2017-12-01 20:41:15.052 [http-nio-8090-exec-4] SimpleController - Error message
+[INFO ] 2017-12-02 10:40:36.589 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4464 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 10:40:36.628 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 10:40:41.992 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 5.778 seconds (JVM running for 7.658)
+[INFO ] 2017-12-02 10:41:11.887 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 10:41:11.896 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 10:41:11.896 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 10:41:17.031 [http-nio-8090-exec-2] SimpleController - Info message
+[WARN ] 2017-12-02 10:41:17.031 [http-nio-8090-exec-2] SimpleController - Warn message
+[ERROR] 2017-12-02 10:41:17.031 [http-nio-8090-exec-2] SimpleController - Error message
+[INFO ] 2017-12-02 10:42:13.015 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 1320 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 10:42:13.025 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 10:42:17.646 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 5.051 seconds (JVM running for 7.214)
+[INFO ] 2017-12-02 10:42:48.771 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 10:42:48.772 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 10:42:48.772 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 10:42:56.220 [http-nio-8090-exec-2] SimpleController - Info message
+[WARN ] 2017-12-02 10:42:56.220 [http-nio-8090-exec-2] SimpleController - Warn message
+[ERROR] 2017-12-02 10:42:56.220 [http-nio-8090-exec-2] SimpleController - Error message
+[INFO ] 2017-12-02 10:43:14.862 [http-nio-8090-exec-3] LoggerBaseAuditor - 23452353245
+[INFO ] 2017-12-02 10:43:35.090 [http-nio-8090-exec-4] LoggerBaseAuditor - 23452353245
+[INFO ] 2017-12-02 10:48:09.016 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 7400 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 10:48:09.021 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 10:48:13.231 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 4.705 seconds (JVM running for 6.501)
+[INFO ] 2017-12-02 10:51:24.433 [http-nio-8090-exec-1] LoggerBaseAuditor - 23452353245
+[INFO ] 2017-12-02 10:51:29.263 [http-nio-8090-exec-2] LoggerBaseAuditor - 23452353245
+[INFO ] 2017-12-02 10:51:33.663 [http-nio-8090-exec-4] LoggerBaseAuditor - 23452353245
+[INFO ] 2017-12-02 10:51:37.966 [http-nio-8090-exec-5] SimpleController - Info message
+[WARN ] 2017-12-02 10:51:37.967 [http-nio-8090-exec-5] SimpleController - Warn message
+[ERROR] 2017-12-02 10:51:37.967 [http-nio-8090-exec-5] SimpleController - Error message
+[INFO ] 2017-12-02 10:52:45.622 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 7904 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 10:52:45.628 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 10:52:48.993 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 3.671 seconds (JVM running for 7.478)
+[INFO ] 2017-12-02 10:59:52.978 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 10:59:52.978 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 10:59:52.979 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 11:00:33.730 [http-nio-8090-exec-2] SimpleController - Info message
+[WARN ] 2017-12-02 11:00:33.730 [http-nio-8090-exec-2] SimpleController - Warn message
+[ERROR] 2017-12-02 11:00:33.730 [http-nio-8090-exec-2] SimpleController - Error message
+[INFO ] 2017-12-02 11:00:43.459 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 6532 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 11:00:43.469 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 11:00:48.004 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 5.016 seconds (JVM running for 6.798)
+[INFO ] 2017-12-02 11:00:58.874 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 11:00:58.875 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 11:00:58.875 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 11:01:03.447 [http-nio-8090-exec-2] SimpleController - Info message
+[WARN ] 2017-12-02 11:01:03.447 [http-nio-8090-exec-2] SimpleController - Warn message
+[ERROR] 2017-12-02 11:01:03.447 [http-nio-8090-exec-2] SimpleController - Error message
+[INFO ] 2017-12-02 11:06:33.596 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 6976 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 11:06:33.602 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 11:06:38.961 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 6.009 seconds (JVM running for 9.351)
+[INFO ] 2017-12-02 11:07:38.454 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 11:07:38.455 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 11:07:38.455 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 11:08:46.449 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4272 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 11:08:46.459 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 11:08:49.628 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 3.466 seconds (JVM running for 7.525)
+[INFO ] 2017-12-02 11:09:02.823 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 11:09:02.823 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 11:09:02.824 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 11:09:24.424 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4044 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 11:09:24.429 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 11:09:28.696 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 4.577 seconds (JVM running for 6.598)
+[INFO ] 2017-12-02 11:09:48.032 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 11:09:48.032 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 11:09:48.033 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 11:10:22.177 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 7564 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 11:10:22.187 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 11:10:26.289 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 4.473 seconds (JVM running for 6.459)
+[INFO ] 2017-12-02 11:10:41.563 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 11:10:41.564 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 11:10:41.564 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 11:11:17.673 [http-nio-8090-exec-4] SimpleController - Info message
+[WARN ] 2017-12-02 11:11:17.674 [http-nio-8090-exec-4] SimpleController - Warn message
+[ERROR] 2017-12-02 11:11:17.674 [http-nio-8090-exec-4] SimpleController - Error message
+[INFO ] 2017-12-02 11:11:44.808 [http-nio-8090-exec-5] SimpleController - Info message
+[WARN ] 2017-12-02 11:11:44.808 [http-nio-8090-exec-5] SimpleController - Warn message
+[ERROR] 2017-12-02 11:11:44.808 [http-nio-8090-exec-5] SimpleController - Error message
+[INFO ] 2017-12-02 11:12:21.173 [http-nio-8090-exec-6] SimpleController - Info message
+[WARN ] 2017-12-02 11:12:21.174 [http-nio-8090-exec-6] SimpleController - Warn message
+[ERROR] 2017-12-02 11:12:21.174 [http-nio-8090-exec-6] SimpleController - Error message
+[INFO ] 2017-12-02 11:25:56.215 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4304 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 11:25:56.293 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 11:26:18.880 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 25.585 seconds (JVM running for 38.727)
+[INFO ] 2017-12-02 11:26:51.280 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 11:26:51.282 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 11:26:51.283 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 11:27:35.891 [http-nio-8090-exec-10] LoggerBaseAuditor - 23452353245
+[INFO ] 2017-12-02 11:29:12.408 [main] SpringBootLog4J2Application - Starting SpringBootLog4J2Application on ГРИГОРИЙ-ПК with PID 4408 (E:\Java\SpringBootLog\target\classes started by ГРИГОРИЙ in E:\Java\SpringBootLog)
+[INFO ] 2017-12-02 11:29:12.418 [main] SpringBootLog4J2Application - No active profile set, falling back to default profiles: default
+[INFO ] 2017-12-02 11:29:17.815 [main] SpringBootLog4J2Application - Started SpringBootLog4J2Application in 5.961 seconds (JVM running for 8.914)
+[INFO ] 2017-12-02 11:29:53.516 [http-nio-8090-exec-1] SimpleController - Info message
+[WARN ] 2017-12-02 11:29:53.516 [http-nio-8090-exec-1] SimpleController - Warn message
+[ERROR] 2017-12-02 11:29:53.517 [http-nio-8090-exec-1] SimpleController - Error message
+[INFO ] 2017-12-02 11:30:05.798 [http-nio-8090-exec-4] LoggerBaseAuditor - Audit Log from Service: com.javasampleapproach.log4j2.service.NewClassService - from Method: getList - Args: []
+[INFO ] 2017-12-02 11:32:59.467 [http-nio-8090-exec-7] LoggerBaseAuditor - Audit Log from Service: com.javasampleapproach.log4j2.service.NewClassService - from Method: getList - Args: []

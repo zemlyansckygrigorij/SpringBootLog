@@ -477,3 +477,361 @@
 [INFO ] 2017-12-01 14:37:12.466 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
 [INFO ] 2017-12-01 14:37:12.503 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
 [WARN ] 2017-12-01 14:37:23.519 [http-nio-8090-exec-5] DefaultHandlerExceptionResolver - Failed to bind request element: org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "56ее"
+[INFO ] 2017-12-01 16:35:43.224 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 14352 ms
+[INFO ] 2017-12-01 16:40:49.024 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 4073 ms
+[INFO ] 2017-12-01 16:43:05.598 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 4919 ms
+[INFO ] 2017-12-01 16:44:19.720 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 4866 ms
+[INFO ] 2017-12-01 16:44:21.419 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@186beff: startup date [Fri Dec 01 16:44:14 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 16:44:21.842 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-01 16:44:21.847 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 16:44:21.850 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 16:44:21.850 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 16:44:21.850 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 16:44:21.934 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 16:44:21.935 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 16:44:22.013 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 16:44:22.082 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 16:45:41.133 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 16:45:41.286 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 152 ms
+[INFO ] 2017-12-01 17:05:50.319 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 1819 ms
+[INFO ] 2017-12-01 17:05:50.941 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@186beff: startup date [Fri Dec 01 17:05:48 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 17:05:51.027 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-01 17:05:51.029 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 17:05:51.030 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 17:05:51.030 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 17:05:51.030 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 17:05:51.090 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 17:05:51.091 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 17:05:51.123 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 17:05:51.153 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 17:06:07.573 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 17:06:07.605 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+[INFO ] 2017-12-01 17:19:06.480 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2851 ms
+[INFO ] 2017-12-01 17:19:07.428 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@186beff: startup date [Fri Dec 01 17:19:03 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 17:19:07.539 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-01 17:19:07.544 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 17:19:07.547 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 17:20:26.409 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2440 ms
+[INFO ] 2017-12-01 17:20:27.030 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@186beff: startup date [Fri Dec 01 17:20:23 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 17:20:27.116 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 17:20:27.117 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 17:20:27.117 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 17:20:27.117 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 17:20:27.118 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 17:20:27.182 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 17:20:27.182 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 17:20:27.209 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 17:20:27.240 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 17:20:42.494 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 17:20:42.521 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+[INFO ] 2017-12-01 18:42:36.327 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2062 ms
+[INFO ] 2017-12-01 18:42:37.111 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 18:42:34 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 18:42:37.266 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 18:42:37.268 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.error()
+[INFO ] 2017-12-01 18:42:37.268 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 18:42:37.268 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 18:42:37.269 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 18:42:37.347 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:42:37.347 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:42:37.404 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 18:42:37.444 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:42:51.461 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 18:42:51.498 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+[INFO ] 2017-12-01 18:44:23.622 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2464 ms
+[INFO ] 2017-12-01 18:44:24.518 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 18:44:21 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 18:44:24.649 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 18:44:24.650 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 18:44:24.651 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 18:44:24.651 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 18:44:24.801 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:44:24.802 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:44:24.870 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 18:44:24.939 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:44:59.750 [http-nio-8090-exec-3] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 18:44:59.780 [http-nio-8090-exec-3] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+[INFO ] 2017-12-01 18:52:07.162 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2015 ms
+[INFO ] 2017-12-01 18:52:08.041 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 18:52:05 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 18:52:08.117 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 18:52:08.119 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 18:52:08.119 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 18:52:08.120 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 18:52:08.179 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:52:08.179 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:52:08.206 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 18:52:08.240 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:52:37.226 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 18:52:37.276 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 49 ms
+[INFO ] 2017-12-01 18:56:40.542 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2509 ms
+[INFO ] 2017-12-01 18:56:41.325 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 18:56:38 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 18:56:41.413 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 18:56:41.414 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 18:56:41.417 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 18:56:41.419 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 18:56:41.507 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:56:41.507 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:56:41.543 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 18:56:41.626 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 18:57:07.131 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 18:57:07.157 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+[INFO ] 2017-12-01 19:02:49.016 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2062 ms
+[INFO ] 2017-12-01 19:02:49.689 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 19:02:46 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 19:02:49.774 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 19:02:49.775 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 19:02:49.776 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 19:02:49.776 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 19:02:49.830 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:02:49.830 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:02:49.856 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 19:02:49.890 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:04:07.758 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 19:04:07.794 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+[INFO ] 2017-12-01 19:08:15.770 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2582 ms
+[INFO ] 2017-12-01 19:08:16.685 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 19:08:13 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 19:08:16.766 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 19:08:16.768 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 19:08:16.768 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 19:08:16.768 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 19:08:16.772 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-01 19:08:16.773 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-01 19:08:16.830 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:08:16.830 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:08:16.862 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 19:08:16.895 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:08:42.955 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 19:08:42.979 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+[INFO ] 2017-12-01 19:12:29.374 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2550 ms
+[INFO ] 2017-12-01 19:12:30.553 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 19:12:26 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 19:12:30.633 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 19:12:30.634 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 19:12:30.634 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 19:12:30.635 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 19:12:30.639 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-01 19:12:30.639 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-01 19:12:30.705 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:12:30.706 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:12:30.738 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 19:12:30.789 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:12:47.767 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 19:12:47.791 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+[INFO ] 2017-12-01 19:14:08.571 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2264 ms
+[INFO ] 2017-12-01 19:14:09.309 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 19:14:06 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 19:14:09.400 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 19:14:09.401 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 19:14:09.401 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 19:14:09.402 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 19:14:09.406 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-01 19:14:09.406 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-01 19:14:09.459 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:14:09.459 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:14:09.491 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 19:14:09.523 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:14:25.692 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 19:14:25.723 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+[INFO ] 2017-12-01 19:17:25.737 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2705 ms
+[INFO ] 2017-12-01 19:17:26.872 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 19:17:23 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 19:17:26.994 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 19:17:26.995 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 19:17:26.998 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 19:17:27.000 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 19:17:27.007 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-01 19:17:27.008 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-01 19:17:27.065 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:17:27.065 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:17:27.103 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 19:17:27.134 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:17:40.244 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 19:17:40.269 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+[INFO ] 2017-12-01 19:23:35.979 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 3733 ms
+[INFO ] 2017-12-01 19:23:37.117 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 19:23:32 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 19:23:37.248 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 19:23:37.249 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 19:23:37.252 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 19:23:37.253 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 19:23:37.257 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-01 19:23:37.261 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-01 19:23:37.399 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:23:37.399 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:23:37.499 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 19:23:37.589 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 19:24:24.532 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 19:24:24.586 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 54 ms
+[INFO ] 2017-12-01 20:39:38.655 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2233 ms
+[INFO ] 2017-12-01 20:39:39.421 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 20:39:36 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 20:39:39.503 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 20:39:39.504 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 20:39:39.504 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 20:39:39.505 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 20:39:39.508 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-01 20:39:39.509 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-01 20:39:39.570 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 20:39:39.570 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 20:39:39.616 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 20:39:39.676 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 20:40:39.845 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2808 ms
+[INFO ] 2017-12-01 20:40:40.621 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Fri Dec 01 20:40:37 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-01 20:40:40.701 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-01 20:40:40.707 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-01 20:40:40.707 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-01 20:40:40.708 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-01 20:40:40.712 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-01 20:40:40.713 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-01 20:40:40.769 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 20:40:40.770 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 20:40:40.796 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-01 20:40:40.831 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-01 20:40:53.545 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-01 20:40:53.569 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+[INFO ] 2017-12-02 10:40:39.271 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2529 ms
+[INFO ] 2017-12-02 10:40:41.438 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 10:40:36 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 10:40:41.520 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 10:40:41.521 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 10:40:41.521 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 10:40:41.522 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-02 10:40:41.526 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 10:40:41.526 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 10:40:41.594 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:40:41.594 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:40:41.629 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 10:40:41.667 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:41:11.676 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 10:41:11.745 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 69 ms
+[INFO ] 2017-12-02 10:42:15.780 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2678 ms
+[INFO ] 2017-12-02 10:42:16.799 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 10:42:13 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 10:42:16.940 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 10:42:16.941 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 10:42:16.942 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 10:42:16.944 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.SimpleController.getStringList()
+[INFO ] 2017-12-02 10:42:16.949 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 10:42:16.949 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 10:42:17.067 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:42:17.068 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:42:17.157 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 10:42:17.204 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:42:48.701 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 10:42:48.734 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+[INFO ] 2017-12-02 10:48:11.443 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2348 ms
+[INFO ] 2017-12-02 10:48:12.619 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 10:48:09 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 10:48:12.778 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-02 10:48:12.782 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 10:48:12.782 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 10:48:12.782 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 10:48:12.786 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 10:48:12.787 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 10:48:12.856 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:48:12.857 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:48:12.885 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 10:48:12.926 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:51:24.358 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 10:51:24.391 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+[INFO ] 2017-12-02 10:52:47.773 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2072 ms
+[INFO ] 2017-12-02 10:52:48.421 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 10:52:45 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 10:52:48.525 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-02 10:52:48.528 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 10:52:48.529 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 10:52:48.529 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 10:52:48.532 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 10:52:48.533 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 10:52:48.614 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:52:48.614 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:52:48.663 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 10:52:48.718 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 10:59:52.907 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 10:59:52.941 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+[INFO ] 2017-12-02 11:00:46.207 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2597 ms
+[INFO ] 2017-12-02 11:00:47.428 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 11:00:43 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 11:00:47.540 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-02 11:00:47.545 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 11:00:47.545 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 11:00:47.546 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 11:00:47.549 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 11:00:47.550 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 11:00:47.615 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:00:47.615 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:00:47.641 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 11:00:47.677 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:00:58.800 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 11:00:58.829 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 28 ms
+[INFO ] 2017-12-02 11:06:37.367 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 3659 ms
+[INFO ] 2017-12-02 11:06:38.274 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 11:06:33 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 11:06:38.361 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-02 11:06:38.364 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 11:06:38.365 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 11:06:38.365 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 11:06:38.374 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 11:06:38.374 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 11:06:38.426 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:06:38.426 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:06:38.470 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 11:06:38.510 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:07:38.327 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 11:07:38.354 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+[INFO ] 2017-12-02 11:08:48.383 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 1845 ms
+[INFO ] 2017-12-02 11:08:49.035 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@112b668: startup date [Sat Dec 02 11:08:46 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 11:08:49.122 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-02 11:08:49.125 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 11:08:49.125 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 11:08:49.125 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 11:08:49.129 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 11:08:49.129 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 11:08:49.187 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:08:49.187 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:08:49.215 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 11:08:49.243 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:09:02.759 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 11:09:02.785 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+[INFO ] 2017-12-02 11:09:27.111 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2612 ms
+[INFO ] 2017-12-02 11:09:28.086 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 11:09:24 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 11:09:28.168 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-02 11:09:28.171 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 11:09:28.171 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 11:09:28.171 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 11:09:28.175 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 11:09:28.175 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 11:09:28.244 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:09:28.244 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:09:28.271 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 11:09:28.309 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:09:47.960 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 11:09:47.984 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+[INFO ] 2017-12-02 11:10:24.813 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 2548 ms
+[INFO ] 2017-12-02 11:10:25.721 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 11:10:22 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 11:10:25.804 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-02 11:10:25.807 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 11:10:25.807 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 11:10:25.808 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 11:10:25.811 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 11:10:25.811 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 11:10:25.868 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:10:25.868 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:10:25.897 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 11:10:25.949 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:10:41.446 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 11:10:41.498 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 52 ms
+[INFO ] 2017-12-02 11:26:15.425 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 18636 ms
+[INFO ] 2017-12-02 11:26:17.553 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 11:25:56 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 11:26:17.864 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-02 11:26:17.870 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 11:26:17.871 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 11:26:17.874 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 11:26:17.879 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 11:26:17.879 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 11:26:17.979 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:26:17.980 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:26:18.034 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 11:26:18.140 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:26:50.641 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 11:26:50.723 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 82 ms
+[INFO ] 2017-12-02 11:29:16.292 [localhost-startStop-1] ContextLoader - Root WebApplicationContext: initialization completed in 3607 ms
+[INFO ] 2017-12-02 11:29:17.111 [main] RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1165b38: startup date [Sat Dec 02 11:29:12 MSK 2017]; root of context hierarchy
+[INFO ] 2017-12-02 11:29:17.229 [main] RequestMappingHandlerMapping - Mapped "{[/getList],methods=[GET]}" onto public org.springframework.http.ResponseEntity<java.util.List<java.lang.String>> com.javasampleapproach.log4j2.controller.RestControllerLoggerAOP.getStringList()
+[INFO ] 2017-12-02 11:29:17.231 [main] RequestMappingHandlerMapping - Mapped "{[/{id}],methods=[GET]}" onto public java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.getInt(int)
+[INFO ] 2017-12-02 11:29:17.232 [main] RequestMappingHandlerMapping - Mapped "{[/]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello()
+[INFO ] 2017-12-02 11:29:17.232 [main] RequestMappingHandlerMapping - Mapped "{[/112]}" onto java.lang.String com.javasampleapproach.log4j2.controller.SimpleController.hello1()
+[INFO ] 2017-12-02 11:29:17.236 [main] RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO ] 2017-12-02 11:29:17.236 [main] RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO ] 2017-12-02 11:29:17.290 [main] SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:29:17.290 [main] SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:29:17.338 [main] ExceptionHandlerExceptionResolver - Detected @ExceptionHandler methods in pageNotFoundException
+[INFO ] 2017-12-02 11:29:17.373 [main] SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO ] 2017-12-02 11:29:53.391 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+[INFO ] 2017-12-02 11:29:53.426 [http-nio-8090-exec-1] DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
